@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather</title>`
+        <link rel="stylesheet" href="/weather/css/weather.css">
+        <script src="/weather/js/weather.js"></script>
+        <body>
+
+
+        <div class="card">
+            <h1 class="card_title">Weather_App</h1>
+            <p class="card_data">Today,<span id="data"></span></p>
+            <div class="card_search">
+                <input type="text" class="card__input" placeholder="Enter City Name ">
+                <button  id="searchBtn"  class="card__btn">
+                <i class="  fa-solid fa-magmifing-glass "></i>
+                </button>
+            </div>
+            <div class="card__weather">
+                <h2 class="card__titile card__titile--city">New York</h2>
+                <div class="card__block">
+                    <h3 class="card__titile card__titile--temp">22℃</h3>
+                    <img src="" alt="" class="card__weather__icon" alt ="Icon">
+                </div>
+
+            </div>
+
+
+            <div class="card__detalis">
+
+                <div class="card__col">
+                    <i class="fa-solid fa-wid"></i>
+                    <p>Wind</p>
+                    <p id="wind" class="card_info">15 m/s</p>
+                </div>
+
+                <div class="card__col">
+                    <i class="fa-solid fa-droplet"></i>
+                    <p>Hum</p>
+                    <p id="Humigity" class="card_info">50 %</p>
+                </div>
+
+            </div>
+        </div>
+    </body>
+    </head>
+</html>
